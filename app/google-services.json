@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225901446780",
+    "project_id": "friends-1f1dc",
+    "storage_bucket": "friends-1f1dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225901446780:android:7a4444385a1c72185e6bf9",
+        "android_client_info": {
+          "package_name": "com.example.vennerlister"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDii9cj3ZjbdRWE6YxOkmlSPJRzKbQ_wzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

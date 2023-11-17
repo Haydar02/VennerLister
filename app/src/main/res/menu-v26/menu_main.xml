@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vennerlister.MainActivity">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="200"
+        android:title="@string/logout"
+        android:actionLayout="@layout/fragment_first"
+        android:tooltipText="@string/bottom_sheet_behavior"
+         />
+
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/action_another"-->
+<!--        android:orderInCategory="200"-->
+<!--        android:title="Item with long title"-->
+<!--        app:showAsAction="withText" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/action_yet_another"-->
+<!--        android:orderInCategory="3"-->
+<!--        android:title="Yet another"-->
+<!--        android:visible="false"-->
+<!--        app:showAsAction="ifRoom" />-->
+</menu>

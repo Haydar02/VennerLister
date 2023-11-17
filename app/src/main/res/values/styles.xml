@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomDatePicker">
+
+        <item name="android:background">@color/Red</item>
+
+        <!-- Tekstfarve -->
+        <item name="android:calendarTextColor">@color/Green</item>
+
+
+        <item name="android:spinnersShown">false</item>
+
+        <!-- Angiv, om kalendervisningen skal vises -->
+        <item name="android:calendarViewShown">true</item>
+
+    </style>
+
+</resources>

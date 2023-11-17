@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral0"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ModifyFragment">
+
+
+    <TextView
+        android:id="@+id/textview_message"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sortbagground" />
+
+
+    <EditText
+        android:id="@+id/editText_Name"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_birthdate"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#252323"
+        android:text="Birthdate"
+        android:textColor="@color/Green"
+        android:textStyle="italic" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText_BirthYear"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:background="@drawable/custom_edittext"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="BirthYear"-->
+<!--        android:inputType="number"-->
+<!--        android:text="Year"-->
+<!--        android:textColor="@color/white" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText_BirthMonth"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:background="@drawable/custom_edittext"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="BirthMonth"-->
+<!--        android:inputType="number"-->
+<!--        android:text="Month"-->
+<!--        android:textColor="@color/white" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText_BirthDayOfMounth"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:background="@drawable/custom_edittext"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="Birthday_Day"-->
+<!--        android:inputType="number"-->
+<!--        android:text="Day"-->
+<!--        android:textColor="@color/white" />-->
+
+
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/Green"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Red"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A59191"
+        android:text="Back"
+        android:textColorHint="@color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/image" />
+
+
+</LinearLayout>

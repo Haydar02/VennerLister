@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.vennerlister.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.vennerlister.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_secound">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_newFriend"
+            app:destination="@id/newFriend" />
+        <action
+            android:id="@+id/action_SecondFragment_to_modifyFragment"
+            app:destination="@id/modifyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newFriend"
+        android:name="com.example.vennerlister.NewFriend"
+        android:label="fragment_new_friend"
+        tools:layout="@layout/fragment_new_friend" >
+        <action
+            android:id="@+id/action_newFriend_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/modifyFragment"
+        android:name="com.example.vennerlister.ModifyFragment"
+        android:label="fragment_modify"
+        tools:layout="@layout/fragment_modify" >
+        <action
+            android:id="@+id/action_modifyFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
